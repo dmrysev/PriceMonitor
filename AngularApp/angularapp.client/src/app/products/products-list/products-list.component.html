@@ -1,0 +1,26 @@
+<h2>Products</h2>
+<div class="table-wrapper">
+	<table class="fl-table" *ngIf="products">
+		<thead>
+			<tr>
+				<th style="width:50px"></th>
+				<th>Name</th>
+				<th>Tags</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr *ngFor="let product of products">
+				<td>
+					<input type="checkbox" [(checked)]=product.isSelected (change)=selectionChanged(product)>
+				</td>
+				<td>{{ product.name }}</td>
+				<td>{{ product.tags }}</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<div class="multi-button">
+	<button routerLink="/products/add">Add</button>
+	<button (click)="deleteSelected()" [disabled]="!isDeleteButtonEnabled">Delete</button>
+</div>

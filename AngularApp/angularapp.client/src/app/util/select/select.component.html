@@ -1,0 +1,7 @@
+<div>
+  <label>{{ field.label }}</label>
+  <select [class]="field.inputClass" [name]="field.name" type="select" [(ngModel)]="field.selectedItem" (input)="field.selectChanged()">
+    <option *ngFor="let item of field.items" [ngValue]="field.getValue(item)">{{ field.getViewName(item) }}</option>
+  </select>
+  <em class="error" *ngIf="!field.validationSuccessful">{{ field.validationError }}</em>
+</div>

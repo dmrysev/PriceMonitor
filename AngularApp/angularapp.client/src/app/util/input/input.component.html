@@ -1,0 +1,5 @@
+<div>
+  <label>{{ inputField.label }}</label>
+  <input [class]="inputField.inputClass" [name]="inputField.name" type="text" [(ngModel)]="inputField.value" (input)="inputField.inputChanged()">
+  <em class="error" *ngIf="!inputField.validationSuccessful">{{ inputField.validationError }}</em>
+</div>

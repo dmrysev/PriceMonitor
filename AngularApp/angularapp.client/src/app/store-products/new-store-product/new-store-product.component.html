@@ -1,0 +1,9 @@
+<h2>Add new store product</h2>
+
+<form>
+  <app-select [field]="productsSelectField"></app-select>
+  <app-select [field]="storesSelectField"></app-select>
+<div class="multi-button" style="margin-top: 10px">
+  <button (click)="save()">Save</button>
+  <button routerLink="/store-products">Cancel</button>
+</div>

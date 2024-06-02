@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{7A32B208-80A7-4BEF-82DB-065824CF0B31}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console", "Console\Console.csproj", "{808FAB6D-C534-4A7C-8054-20E32E2D381C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2E3ED0AC-0DDE-496C-B995-D69178EB1C6C} = {2E3ED0AC-0DDE-496C-B995-D69178EB1C6C}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "Data\Data.csproj", "{889FA4DB-DD89-4947-9947-41F6CA9E80A0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{2E3ED0AC-0DDE-496C-B995-D69178EB1C6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularApp.Server", "AngularApp\AngularApp.Server\AngularApp.Server.csproj", "{1B9F44A5-BAF1-4048-9F89-52174D35E8F6}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "angularapp.client", "AngularApp\angularapp.client\angularapp.client.esproj", "{B9997A1C-44AE-4EC5-8C1E-6C51A83D4145}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A32B208-80A7-4BEF-82DB-065824CF0B31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A32B208-80A7-4BEF-82DB-065824CF0B31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A32B208-80A7-4BEF-82DB-065824CF0B31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A32B208-80A7-4BEF-82DB-065824CF0B31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{808FAB6D-C534-4A7C-8054-20E32E2D381C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{808FAB6D-C534-4A7C-8054-20E32E2D381C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{808FAB6D-C534-4A7C-8054-20E32E2D381C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{808FAB6D-C534-4A7C-8054-20E32E2D381C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{889FA4DB-DD89-4947-9947-41F6CA9E80A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{889FA4DB-DD89-4947-9947-41F6CA9E80A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{889FA4DB-DD89-4947-9947-41F6CA9E80A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{889FA4DB-DD89-4947-9947-41F6CA9E80A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E3ED0AC-0DDE-496C-B995-D69178EB1C6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E3ED0AC-0DDE-496C-B995-D69178EB1C6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E3ED0AC-0DDE-496C-B995-D69178EB1C6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E3ED0AC-0DDE-496C-B995-D69178EB1C6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B9F44A5-BAF1-4048-9F89-52174D35E8F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B9F44A5-BAF1-4048-9F89-52174D35E8F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B9F44A5-BAF1-4048-9F89-52174D35E8F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B9F44A5-BAF1-4048-9F89-52174D35E8F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9997A1C-44AE-4EC5-8C1E-6C51A83D4145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9997A1C-44AE-4EC5-8C1E-6C51A83D4145}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9997A1C-44AE-4EC5-8C1E-6C51A83D4145}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B9997A1C-44AE-4EC5-8C1E-6C51A83D4145}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9997A1C-44AE-4EC5-8C1E-6C51A83D4145}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9997A1C-44AE-4EC5-8C1E-6C51A83D4145}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {959D76DA-7FA8-447D-8384-844C78629D77}
+	EndGlobalSection
+EndGlobal

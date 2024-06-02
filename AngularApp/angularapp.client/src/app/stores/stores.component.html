@@ -1,0 +1,15 @@
+<h2>Stores</h2>
+<div class="table-wrapper">
+	<table class="fl-table" *ngIf="stores">
+		<thead>
+			<tr>
+				<th>Name</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr *ngFor="let store of stores">
+				<td>{{ store.name }}</td>
+			</tr>
+		</tbody>
+	</table>
+</div>

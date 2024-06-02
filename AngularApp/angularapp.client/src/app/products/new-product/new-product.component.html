@@ -1,0 +1,11 @@
+<h2>Add new product</h2>
+
+<form>
+  <app-input [inputField]="productName"></app-input>
+  <app-input [inputField]="productTags"></app-input>
+  <label>* Required fields</label>
+</form>
+<div class="multi-button" style="margin-top: 10px">
+  <button (click)="saveProduct()">Save</button>
+  <button routerLink="/products">Cancel</button>
+</div>
